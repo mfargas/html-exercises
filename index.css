@@ -35,10 +35,13 @@ body{
 
 .list{
   display: block;
-  margin: 0 auto 0 auto;
+  margin: 0 5vw;
+  border-style: ridge;
+  border-color: white;
 }
 
-li{
+.list-item{
+  margin: 2vh 5vw;
   text-align: left;
 }
 
