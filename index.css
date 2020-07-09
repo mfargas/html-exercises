@@ -4,19 +4,20 @@
   padding: auto;
   margin: auto;
   font-family: sans-serif;
-  column-count: 3;
 }
 
 #image{
   width: 20em;
   height: auto;
-  columns: 2/3;
+  display: block;
+  margin: 0 auto;
 }
 
 h1{
   font-family: 'Montserrat Subrayada', sans-serif;
   padding: 15px;
-  position: relative;
+  display: block;
+  margin: 0 auto;
 }
 
 body{
@@ -26,12 +27,31 @@ body{
 
 #tribute-info{
   background-color: grey;
-
   padding: 2em;
   font-family: sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+
+.list{
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+li{
+  text-align: left;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: blue;
 }
 
 #footer{
-  color: white;
+  background-color: white;
   padding: 2em;
 }
