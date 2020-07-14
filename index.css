@@ -1,4 +1,4 @@
-.image-div{
+.img-div{
   background-color: white;
   color: black;
   width: 24em;
@@ -14,13 +14,13 @@
   margin: 1em 1em 1em 1em;
 }
 
-#image{
+.image{
   border-style: outset;
   border-color: black;
   width: 20em;
   height: auto;
   display: block;
-  margin: 2vh auto;
+  margin: 0 auto;
 }
 
 h1{
