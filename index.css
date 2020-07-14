@@ -1,12 +1,22 @@
-#image-div{
+.img-div{
   background-color: white;
   color: black;
-  padding: auto;
-  margin: auto;
+  width: 24em;
+  padding: 1em 0.25em 0.25em 1em;
+  margin: 0 auto;
   font-family: sans-serif;
 }
 
-#image{
+.img-caption{
+  font-family: 'Nobile', sans-serif;
+  font-size: 12px;
+  text-align: right;
+  margin: 1em 1em 1em 1em;
+}
+
+.image{
+  border-style: outset;
+  border-color: black;
   width: 20em;
   height: auto;
   display: block;
@@ -15,6 +25,7 @@
 
 h1{
   font-family: 'Montserrat Subrayada', sans-serif;
+  text-decoration: underline;
   padding: 15px;
   display: block;
   margin: 0 auto;
@@ -23,14 +34,19 @@ h1{
 body{
   background-color: black;
   color: white;
+  margin: 1vh 3vw;
 }
 
 #tribute-info{
-  background-color: grey;
-  padding: 2em;
-  font-family: sans-serif;
+  background-color: #222021;
+  padding: 1em;
+  font-family: 'Nobile', sans-serif;
   justify-content: center;
   text-align: center;
+}
+
+p{
+  text-align: justify;
 }
 
 .list{
@@ -51,10 +67,18 @@ a{
 }
 
 a:hover{
-  color: blue;
+  color: rgb(254,203,0);
+}
+
+.footer-text{
+  color: black;
+  text-align: right;
+  text-decoration: underline;
 }
 
 #footer{
   background-color: white;
+  font-family: 'Nobile', sans-serif;
+  text-align: right;
   padding: 2em;
 }
