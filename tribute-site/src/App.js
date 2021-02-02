@@ -2,13 +2,19 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import Main from './components/Main';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="app-wrapper">
-      <div className="content-wrapper">
+    <div className="top-parent-container">
+      <div className="header-wrapper">
       <Header/>
-      <Main />
+      </div>
+      <div className="main-wrapper">
+        <Main />
+      </div>
+      <div className="footer-wrapper">
+        <Footer />
       </div>
     </div>
   );
