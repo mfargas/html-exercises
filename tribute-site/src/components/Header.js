@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import React, {Component} from 'react';
 
 export default class Header extends Component {
