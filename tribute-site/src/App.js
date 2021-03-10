@@ -1,4 +1,6 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+
 import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
@@ -10,7 +12,7 @@ import { Component } from 'react';
 class App extends Component {
   render() {
   return (
-    <div className="top-parent-container">
+    <Container fluid>
       <div className="header-wrapper">
         <Header/>
       </div>
@@ -20,7 +22,7 @@ class App extends Component {
       <div className="footer-wrapper">
         <Footer />
       </div>
-    </div>
+    </Container>
   );
 }
 }
