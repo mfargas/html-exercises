@@ -6,7 +6,6 @@ export default class Header extends Component {
     return(
         <div >
         <header className="App-header">
-            {/* <img src={logo} className="App-logo" alt="logo" /> */}
             <h1>
                 The life and career of Matthew Groening
             </h1>
