@@ -1,10 +1,10 @@
 [build]
   command = "npm run build"
   functions = "functions" # netlify dev uses this directory to scaffold and serve your functions
-  publish = "/tribute-site/build"
+  publish = "/build"
 
 [dev]
-  framework = "create-react-app" # or "#static" to force a static server
+  Specified "framework" detector "create-react-app" did not pass requirements for your project
   command = "npm start" # Command to start your dev server
   port = 8888 # The port that the netlify dev will be accessible on
   publish = "/tribute-site/build" # If you use a _redirect file, provide the path to your static content folder
